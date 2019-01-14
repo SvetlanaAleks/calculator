@@ -1,0 +1,23 @@
+<header class="main">
+   <div class="container">
+      <form class="form" id="js_indicators-form" action="/" method="post">
+         <label for="indicators_type">Показник</label>
+         <select class="select input" id="indicators_type" name="indicators_type">
+            <option class="select__item">Електроенергія</option>
+            <option class="select__item">Холодна вода</option>
+            <option class="select__item">Гаряча вода</option>
+         </select>
+
+         <label for="prev_indicators">Попередні</label>
+         <input class="input js_input-num" name="prev_indicators" id="prev_indicators" type="text" required>
+
+         <label for="current_indicators">Поточні</label>
+         <input class="input js_input-num" name="current_indicators" id="current_indicators" type="text" required>
+
+         <label for="rate">Тариф</label>
+         <input class="input js_input-num" name="rate" id="rate" type="text" required>
+
+         <button class="btn" type="submit">ADD</button>
+      </form>
+   </div>
+</header>
